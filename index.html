@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIVID VISION GAZE | OFFICIAL CATALOG</title>
+    <style>
+        :root { --vvg-blue: #005eff; --vvg-orange: #ff4500; }
+        * { box-sizing: border-box; }
+        body { margin: 0; background: #000; color: #fff; font-family: 'Helvetica Neue', Arial, sans-serif; text-transform: uppercase; overflow-x: hidden; }
+        
+        /* Navigation & Logo */
+        nav { display: flex; flex-direction: column; align-items: center; padding: 40px 0; border-bottom: 1px solid #222; position: sticky; top: 0; background: rgba(0,0,0,0.9); z-index: 1000; }
+        .logo-img { width: 220px; filter: invert(1); margin-bottom: 10px; }
+        .nav-links { display: flex; gap: 30px; font-size: 0.7rem; letter-spacing: 2px; }
+
+        /* Hero / Drops */
+        .banner { height: 20vh; display: flex; align-items: center; justify-content: center; border-bottom: 1px solid #222; }
+        .scrolling-text { white-space: nowrap; font-size: 1.5rem; font-weight: 900; color: #1a1a1a; }
+
+        /* Product Grid */
+        .catalog { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 1px; background: #222; border-bottom: 1px solid #222; }
+        .product { background: #000; position: relative; padding-bottom: 30px; transition: 0.3s; }
+        .product:hover { background: #050505; }
+        
+        .img-container { width: 100%; height: 450px; background-size: cover; background-position: center; filter: grayscale(100%); transition: 0.5s; }
+        .product:hover .img-container { filter: grayscale(0%); }
+
+        .info { padding: 25px; text-align: left; }
+        .tag { font-size: 0.6rem; color: var(--vvg-blue); margin-bottom: 10px; letter-spacing: 1px; }
+        .name { font-size: 1.1rem; font-weight: 900; margin: 0; }
+        .price { font-size: 1rem; margin-top: 5px; color: #888; }
+
+        /* Checkout Button */
+        .buy-btn { display: block; width: 100%; padding: 20px; background: #fff; color: #000; text-decoration: none; text-align: center; font-weight: 900; font-size: 0.8rem; margin-top: 20px; transition: 0.3s; }
+        .buy-btn:hover { background: var(--vvg-blue); color: #fff; }
+
+        .badge { position: absolute; top: 20px; right: 20px; background: #fff; color: #000; padding: 5px 10px; font-size: 0.6rem; font-weight: bold; }
+
+        footer { padding: 100px 20px; text-align: center; font-size: 0.6rem; color: #444; letter-spacing: 5px; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <img src="https://i.postimg.cc/mZf7Jt8Z/1000193264.png" alt="VVG LOGO" class="logo-img">
+        <div class="nav-links">
+            <span>SHOP</span>
+            <span>ARCHIVE</span>
+            <span>ABOUT</span>
+        </div>
+    </nav>
+
+    <div class="banner">
+        <marquee class="scrolling-text">VIVID VISION GAZE // DROP 001 // VENTURE AND GROW // ALL ITEMS R350 // SECURE THE VISION</marquee>
+    </div>
+
+    <div class="catalog">
+        
+        <div class="product">
+            <div class="img-container" style="background-image: url('https://i.postimg.cc/q7PZ2jPz/1000193241.png');"></div>
+            <div class="info">
+                <div class="tag">NEW ARRIVAL</div>
+                <h3 class="name">TRIPLE OVAL LS / WHITE</h3>
+                <div class="price">R350.00</div>
+                <a href="https://wa.me/27[YOUR_NUMBER]?text=I%20want%20the%20White%20Triple%20Oval%20LS" class="buy-btn">ORDER VIA WHATSAPP</a>
+            </div>
+        </div>
+
+        <div class="product">
+            <div class="img-container" style="background-image: url('https://i.postimg.cc/xT3G1RWh/1000193289.png');"></div>
+            <div class="badge">LIMITED</div>
+            <div class="info">
+                <div class="tag">TECHNICAL</div>
+                <h3 class="name">CONTRAST LS / ORANGE-BLK</h3>
+                <div class="price">R350.00</div>
+                <a href="https://wa.me/27[YOUR_NUMBER]?text=I%20want%20the%20Orange%20Contrast%20LS" class="buy-btn">ORDER VIA WHATSAPP</a>
+            </div>
+        </div>
+
+        <div class="product">
+            <div class="img-container" style="background-image: url('https://i.postimg.cc/mD8xVfS0/1000190967.png');"></div>
+            <div class="info">
+                <div class="tag">GRAPHIC</div>
+                <h3 class="name">FLOW TEE / WHITE</h3>
+                <div class="price">R350.00</div>
+                <a href="https://wa.me/27[YOUR_NUMBER]?text=I%20want%20the%20White%20Flow%20Tee" class="buy-btn">ORDER VIA WHATSAPP</a>
+            </div>
+        </div>
+
+        <div class="product">
+            <div class="img-container" style="background-image: url('https://i.postimg.cc/T3L46M09/1000190944.png');"></div>
+            <div class="info">
+                <div class="tag">GRAPHIC</div>
+                <h3 class="name">FLOW TEE / BLACK</h3>
+                <div class="price">R350.00</div>
+                <a href="https://wa.me/27[YOUR_NUMBER]?text=I%20want%20the%20Black%20Flow%20Tee" class="buy-btn">ORDER VIA WHATSAPP</a>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        IMANGE NGXENGE // VIVID VISION GAZE // ALL RIGHTS RESERVED 2026
+    </footer>
+
+</body>
+</html>
